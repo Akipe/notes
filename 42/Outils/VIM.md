@@ -120,6 +120,20 @@ Les parenthèses indique le mode à utiliser pour exécuter le raccourcie
   > `$`
   - aller au dernier caractère de la ligne
   > `g_`
+  - se déplacer au mot suivant
+  > `w`
+
+  - un "mot" :
+  > suite de chiffres et de lettres ou une suite de signes autres.
+  - un "MOT" :
+  > suite de tout type de signes séparé par un espace.
+
+  - se déplacer au MOT suivant
+  > `W`
+  - se déplacer au mot précédant
+  > `b`
+  - se déplacer au MOT précédant
+  > `B`
   - aller à la prochaine occurrence *i*
   > `f`*i*
   - l'inverse de la commande ci-dessus
