@@ -1,8 +1,8 @@
 # VIM
-VIM est un éditeur de texte en ligne de commande.
+VIM est un editeur de texte en ligne de commande.
 
 ## JE SUIS PERDU !!!
-* Pour **sortir de VIM** sans sauvegarder :
+* Pour **sortir de vim** sans sauvegarder :
 
     `ÉCHAP` (retourne dans le mode commande) puis tapez `:q!`
 
@@ -10,7 +10,7 @@ VIM est un éditeur de texte en ligne de commande.
 
     `ÉCHAP` puis tapez `:wq!`
 
-* Pour **insérer du texte** :
+* Pour **inserer du texte** :
     
     rentrer dans le mode insertion avec la touche `i` puis écrire. Pour sortir du mode insertion appuyez sur `ÉCHAP`
 
@@ -40,7 +40,7 @@ il permet de réaliser les commandes VIM, comme par exemple enregistrer le docum
 
 * **mode insertion**
 
-C'est le mode pour insérer du texte dans votre document.
+C'est le mode pour inserrer du texte dans votre document.
 
 > En `mode commande` appuyez sur la touche `i`.
 
@@ -48,14 +48,14 @@ Il existe un mode remplacement (remplace les caractères existants par les nouve
 
 * **mode visuel**
 
-Permet de sélectionner du texte. Les commandes exécutaient agissent sur l'ensemble du texte sélectionné.
+Permet de sélectionner du texte. Les commandes executaient agissent sur l'ensemble du texte sélectionné.
 
 > En `mode commande` appuyez sur  `v`
 
 Il existe d'autres modes similaires : le mode visuel par ligne avec `V` & le mode visuel par bloc `Ctrl` + `V`.
 
 ### Quelques raccourcies
-Les parenthèses indique le mode à utiliser pour exécuter le raccourcie
+Les parentèses indique le mode à utiliser pour executer le raccourcie
 
 * Supprimer le caractère à droite
 > `x`
@@ -73,15 +73,12 @@ Les parenthèses indique le mode à utiliser pour exécuter le raccourcie
 * Ensuite, afficher les résultats suivants
 > `n`
 
-* Et afficher les résultats précédents
+* Et afficher les résultats précédants
 > `N`
 
 #### Copier/collé
 * Copier et supprimer une ligne entière
 > `dd`
-
-* Copier (en mode visuel)
-> `y`
 
 * Copier ligne entière
 > `yy`
@@ -106,65 +103,22 @@ Les parenthèses indique le mode à utiliser pour exécuter le raccourcie
   > `i`
   - insertion à la ligne suivante
   > `o` *(lettre o minuscule)*
-  - insertion à la ligne précédente
+  - insertion à la ligne précédante
   > `O` *(lettre o majuscule)*
   - supprimer le mot pour ensuite écrire
   > `cw`
 
+
 - Déplacement avancé
   - aller à la première colonne
   > `0` *(zéro)*
-  - aller au premier caractère de la ligne
+  - aller au premirer caractère de la ligne
   > `^`
   - aller à la fin de la ligne
   > `$`
   - aller au dernier caractère de la ligne
   > `g_`
-  - aller à la prochaine occurrence *i*
-  > `f`*i*
-  - l'inverse de la commande ci-dessus
-  > `F`*i*
-  - aller à la *n*ième occurence de *i*
-  > *n*`f`*i*
-  - aller à la première ligne
-  > `gg` ou `1G`
-  - aller à la dernière ligne
-  > `G`
-  - aller à la ligne *N*
-  > *N*`G`
 
-- Indentation de texte
-> `CTRL`+`V` et sélectionner le texte à indenter
-  - pour indenter manuellement
-  > `<` pour indenter à gauche et `>` pour indenter à droite
-  - pour indenté automatiquement
-  > `=`
-
-### Gérer plusieurs écrans
-
-- diviser l'écran horizontalement
-> `:split`
-
-> `CTRL` + `W` puis `s`
-
-- diviser l'écran verticalement
-> `:vsplit`
-
-> `CTRL` + `W` puis `v`
-
-- fermer l'écran courant
-> `CTRL` + `W` puis `q`
-
-- fermer tous les écrans sauf le courant
-> `CTRL` + `W` puis `o`
- 
-- se déplacer dans les différents écrans
-> `CTRL` + `W` ensuite `HAUT`/`BAS`/`GAUCHE`/`DROITE`
-
-- gérer la taille de l'écran
-> `CTRL` + `W` puis `<` pour aller à gauche et `>` pour aller à droite
-
-> `CTRL` + `W` puis `-` pour descendre et `+` pour monter
 
 ### Quelques commandes
 Les commandes peuvent s'additionner.
@@ -180,13 +134,3 @@ Les commandes peuvent s'additionner.
 
 * Quitter & quitter sans sauvegarder
 > `:q` & `:q!`
-
-### Quelques exemples
-
-- Ajouter des commentaires sur plusieurs lignes
-  - `CTRL`+`V` au premier caractère à la première ligne
-  - sélectionner les lignes avec les flèches directionnels ou les raccourcies
-  - `I` (i majuscule)
-  - insérer les commentaires (exemple : *//*)
-  - `ECHAP`
-
